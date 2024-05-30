@@ -1,3 +1,4 @@
+const fetch = require("node-fetch");
 const TELEGRAM_USER = require("./token.json");
 let ACCESS_TOKEN = TELEGRAM_USER.state.token;
 
